@@ -8,11 +8,11 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 BOT_PREFIX = "!"
 
 # Google Docs Configuration
-GOOGLE_DOCS_TIMEOUT = 10  # seconds
+GOOGLE_DOCS_TIMEOUT = 20  # seconds
 
 # NPC Configuration
-MAX_NPCS_PER_SERVER = 20
-MAX_PLAYER_LORE_SIZE = 5000  # characters
+MAX_NPCS_PER_SERVER = 200
+MAX_PLAYER_LORE_SIZE = 50000  # characters
 
 # Response Configuration
 RESPONSE_DELAY = 0.5  # seconds
